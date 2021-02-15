@@ -7,6 +7,13 @@ function App() {
 
         <p>
           <h1>Quote generator</h1>
+          <form>
+          <input
+            className="form button"
+            placeholder="..."
+            />
+          </form>
+          <button className="seachButton">Click</button>
         </p>
  
       </header>
