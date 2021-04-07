@@ -3,27 +3,26 @@ import axios from "axios";
 import Quotes from './components/Quotes';
 import './App.css';
 
-const Quote = () => {
+function Quote () {
 
-  const 
-
-
-
-
-render () => {
 
     return (
     <div className="Quote" >
       <header className="Generator">
-      <Quotes/>
-        <p>
-          <h1>Quote generator</h1>
-        </p>
       </header>
+      <div id="text">
+          <p>Lorem30  
+          </p>
+          
+      </div>
+      <div id="author">
+        <p>John Doe</p>
+        <button>Kick it!!</button>
+      </div>
     </div>
     )
   };
-};
+
 
 
 export default Quote;
