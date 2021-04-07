@@ -1,28 +1,17 @@
-import React, { useState } from 'react';
-import axios from "axios";
+import React from 'react';
 import Quotes from './components/Quotes';
+// import Keano from './Keano.jpg';
 import './App.css';
 
-function Quote () {
-
-
-    return (
-    <div className="Quote" >
-      <header className="Generator">
-      </header>
-      <div id="text">
-          <p>Lorem30  
-          </p>
-          
-      </div>
-      <div id="author">
-        <p>John Doe</p>
-        <button>Kick it!!</button>
-      </div>
+function App() {
+  return (
+    <div className="App">
+      <Quotes />
+    <div>
+      {/* <img src={Keano} className="Keane" /><img/>   */}
     </div>
-    )
-  };
+    </div>
+  );
+}
 
-
-
-export default Quote;
+export default App;
