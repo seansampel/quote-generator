@@ -6,10 +6,10 @@
 }
 body {
   background-color: red;
+  background-image: url("./Keano.png");
+  background-repeat: no-repeat;
+  background-size: 30rem;
 }
-/* .Keane {
-  background-image: url("./Keano.jpg");
-} */
 .App {
   text-align: center;
   font-family: Nunito;
@@ -17,10 +17,13 @@ body {
   font-size: 1.2rem;
   position: relative;
 }
+/* #Keane {
+  background-image: url("./Keano.png");
+} */
 #quote-box {
   background: red;
   width: 40rem;
-  margin: 10rem auto;
+  margin: 24rem auto;
   padding: 3rem;
   border-radius: 5px;
 }

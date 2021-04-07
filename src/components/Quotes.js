@@ -27,14 +27,14 @@ import { useState, useEffect } from 'react';
     }
  
     return (
-      <div id="quote-box">
+      <footer id="quote-box">
         <div id="text"><p>{quote}</p></div>
         <div id="author"><p>{author}</p></div>
-  
+        <div id="Keane"></div>
         <div id="buttons">
           <button onClick={handleClick} id="new-quote">Keano...</button>
         </div>
-      </div>
+      </footer>
     )
   }
 

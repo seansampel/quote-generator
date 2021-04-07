@@ -1,15 +1,14 @@
 import React from 'react';
 import Quotes from './components/Quotes';
-// import Keano from './Keano.jpg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <header id="Keane">
+        <h1>Roy Keane Quote Generator</h1>
+      </header>
       <Quotes />
-    <div>
-      {/* <img src={Keano} className="Keane" /><img/>   */}
-    </div>
     </div>
   );
 }
