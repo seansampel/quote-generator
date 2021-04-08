@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react';
     }, []);
   
     const getQuote = () => {
-      let url = `https://gist.githubusercontent.com/seansampel/624675351cdf87accbab7d147a3e92f3/raw/c0c637194f45c55087617f434e6e1f065ca663c0/quotes.json`;
+      let url = `https://gist.githubusercontent.com/seansampel/624675351cdf87accbab7d147a3e92f3/raw/835d36ed0332a800db7d8b53b1d5d07675b89585/quotes.json`;
       fetch(url)
         .then(res => res.json())
         .then(data => {
@@ -29,9 +29,11 @@ import { useState, useEffect } from 'react';
     return (
       <footer id="quote-box">
         <div id="text"><p>{quote}</p></div>
-        <div id="author"><p>{author}</p></div>
+        <br/>
+        <div id="author"><h5>{author}</h5></div>
         <div id="Keane"></div>
         <div id="buttons">
+        <br/>
           <button onClick={handleClick} id="new-quote">Keano...</button>
         </div>
       </footer>
