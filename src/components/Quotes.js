@@ -9,7 +9,7 @@ import { useState, useEffect } from 'react';
     }, []);
   
     const getQuote = () => {
-      let url = `https://gist.githubusercontent.com/camperbot/5a022b72e96c4c9585c32bf6a75f62d9/raw/e3c6895ce42069f0ee7e991229064f167fe8ccdc/quotes.json`;
+      let url = `https://gist.githubusercontent.com/seansampel/624675351cdf87accbab7d147a3e92f3/raw/c0c637194f45c55087617f434e6e1f065ca663c0/quotes.json`;
       fetch(url)
         .then(res => res.json())
         .then(data => {
