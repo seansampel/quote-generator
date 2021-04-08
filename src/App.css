@@ -1,14 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 
 * {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 body {
   background-color: red;
+}
+.Keano {
   background-image: url("./Keano.png");
-  background-repeat: no-repeat;
-  background-size: 30rem;
+  width: 45%;
 }
 .App {
   text-align: center;
@@ -17,13 +18,10 @@ body {
   font-size: 1.2rem;
   position: relative;
 }
-/* #Keane {
-  background-image: url("./Keano.png");
-} */
 #quote-box {
   background: red;
   width: 40rem;
-  margin: 24rem auto;
+  margin: 0rem auto;
   padding: 3rem;
   border-radius: 5px;
 }
@@ -38,3 +36,4 @@ body {
   outline: none;
   cursor: pointer;
 }
+
